@@ -1,0 +1,25 @@
+.menu {
+    max-width: 200px;
+    background-color: rgb(193, 193, 233);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.menu>p {
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(27, 196, 27);
+    margin: 10px;
+    padding: 4px;
+    text-align: center;
+    user-select: none;
+}
+
+
+.menu>p:hover {
+    background-color: rgb(196, 78, 27);
+}
+
+.menu>p:active {
+    background-color: red;
+}
